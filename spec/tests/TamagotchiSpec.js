@@ -46,7 +46,23 @@ describe('Tamagotchi', function() {
       expect(pet.stats().hunger).toEqual(0);
     });
   });
-  // describe('#imitateLife', function() {
-  //   it('')
-  // });
+  describe('#restPet', function() {
+    it('should allow pet to go to sleep', function() {
+      pet.imitateEnergy();
+      jasmine.clock().tick(9002);
+      pet.restPet();
+      jasmine.clock().tick(2002);
+      expect(pet.stats().energy).toEqual(8);
+    });
+  });
+  describe('#wakePet', function() {
+    it('should allow pet to be woken up', function() {
+      pet.imitateEnergy();
+      jasmine.clock().tick(9002);
+      pet.restPet();
+      jasmine.clock().tick(2002);
+      pet.wakePet();
+      expect(pet.stats().energy).toEqual(8);
+    })
+  })
 });
