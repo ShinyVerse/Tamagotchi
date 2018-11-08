@@ -2,6 +2,29 @@
 
 Using the revealing module pattern to create a simple Tamagotchi imitation. Use of animation for movement and decreasing bars in the UI helped the animal come to life.
 
+## User Stories
+
+```
+As a User
+I can have a virtual pet
+So I am not lonely
+```
+```
+As a User
+I can feed my pet
+So that it doesn't starve
+```
+```
+As a User
+I can see my pet moving
+So I know it is alive
+```
+```
+As a User
+I see my pet getting hungry
+So I know when to feed it
+```
+
 # Getting started
 
 The main repo can be found [here](https://github.com/ShinyVerse/Tamagotchi)
@@ -88,7 +111,6 @@ Enter into the command line:
 ```
 npm test
 ```
-
 
 # Authors
 Laura Jackson
