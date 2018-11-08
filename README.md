@@ -1,6 +1,6 @@
 # Tamagotchi
 
-Using the revealing module pattern to create a simple Tamagotchi imitation. Use of animation for movement and decreasing bars in the UI helped the animal come to life.
+Uses the revealing module pattern to create a simple Tamagotchi imitation. Use of animation for movement and decreasing bars in the UI helped the animal come to life.
 
 ## User Stories
 
@@ -29,35 +29,30 @@ So I know when to feed it
 
 The main repo can be found [here](https://github.com/ShinyVerse/Tamagotchi)
 
-click on the
-```
-fork
-```
-button at the top-right of the page and select your account. Select
 ```
 clone
 ```
 from your own page and use (for SSH)
 ```
-git clone git@github.com:YOUR-USERNAME/Tamagotchi.git
+git clone git@github.com:ShinyVerse/Tamagotchi.git
 ```
 or
 ```
-git clone https://github.com/YOUR-USERNAME/Tamagotchi.git
+git clone https://github.com/ShinyVerse/Tamagotchi.git
 ```
 for HTTPS
 
 # Prerequisites
 
-Download Node.js and npm.
-Visit [here](https://www.npmjs.com/get-npm) to find out more.
+Download Node.js and npm. Visit [here](https://www.npmjs.com/get-npm) to find out more.
 
+Install http-server package:
 ```
 npm install http-server
 ```
 
 ## For tests
-Visit [webdriver.io](http://webdriver.io/) and download. Follow their getting started [guide](http://webdriver.io/guide.html) if new.
+Visit [webdriver.io installation](http://webdriver.io/guide/getstarted/install.html) and follow their getting started [guide](http://webdriver.io/guide.html) to get familiar with their API.
 
 # Install
 
